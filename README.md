@@ -46,4 +46,4 @@ git clone https://github.com/samarthboraste/customer-churn-prediction.git
 cd customer-churn-prediction
 pip install -r requirements.txt
 ```
-Then open `Random_Forest.ipynb` in Jupyter or Google Colab and run all cells.
+Then open `Customer-Churn-Random_forest.ipynb` in Jupyter or Google Colab and run all cells.
