@@ -16,6 +16,13 @@ Customer churn costs telecom companies billions annually. This project analyzes 
 3. **Feature Engineering** — label encoding for categorical variables, correlation analysis
 4. **Modeling** — Random Forest Classifier with `class_weight='balanced_subsample'` to address class imbalance
 
+## 📊 Sample Visualizations
+
+![Churn by Contract Type](images/churn_by_contract.png)
+![Feature Importance](images/feature_importance.png)
+
+*(See the notebook for the full set of EDA visualizations.)*
+
 ## 💡 Key Findings
 | Insight | Detail |
 |---|---|
@@ -32,6 +39,12 @@ Customer churn costs telecom companies billions annually. This project analyzes 
 
 > **Note:** Recall on churned customers is moderate due to class imbalance (~27% churn rate) in the dataset. Addressed using `class_weight='balanced_subsample'`; future work could explore SMOTE or decision-threshold tuning.
 
+## 🔮 Future Improvements
+- Address class imbalance further using SMOTE
+- Try XGBoost/LightGBM and compare performance
+- Deploy as a simple Streamlit app for live predictions
+- Hyperparameter tuning via GridSearchCV
+
 ## 🚀 Business Recommendations
 - Incentivize longer-term contracts (discounts/loyalty perks) to reduce month-to-month churn
 - Bundle online security and tech support with month-to-month plans
@@ -47,3 +60,6 @@ cd customer-churn-prediction
 pip install -r requirements.txt
 ```
 Then open `Customer-Churn-Random_forest.ipynb` in Jupyter or Google Colab and run all cells.
+## 📬 Contact
+**Samarth Boraste** — feel free to connect on [LinkedIn]-https://www.linkedin.com/in/samarthb77/
+
