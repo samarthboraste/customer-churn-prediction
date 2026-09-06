@@ -18,8 +18,8 @@ Customer churn costs telecom companies billions annually. This project analyzes 
 
 ## 📊 Sample Visualizations
 
-![Churn by Contract Type](images/churn_by_contract.png)
-![Feature Importance](images/feature_importance.png)
+![Churn by Contract Type](churn_by_contract.png)
+![Feature Importance](feature_importance.png)
 
 *(See the notebook for the full set of EDA visualizations.)*
 
